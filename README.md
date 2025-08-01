@@ -1,5 +1,5 @@
 <!-- Heading -->
-<img src="src/main/webapp/resources/img/logo.png" alt="DRSP 로고" />
+<img src="./thepain/src/main/webapp/resources/img/logo.png" alt="DRSP 로고" />
 
 # 📘 프로젝트 소개
 
