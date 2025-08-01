@@ -1,5 +1,5 @@
 <!-- Heading -->
-![DRSP 로고](./resources/img/logo.png)
+![DRSP 로고](resources/img/loginFormLogo.png)
 
 # 📘 프로젝트 소개
 
