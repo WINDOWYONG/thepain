@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "mybatis-3-config.dtd" >
+<configuration>
+
+	<settings>
+		<setting name="jdbcTypeForNull" value="NULL"/>
+	</settings>
+	
+	<typeAliases>
+		<typeAlias type="com.kh.thepain.postList.model.vo.PostList" alias="PostList"/>
+		<typeAlias type="com.kh.thepain.member.model.vo.Member" alias="Member"/>
+		<typeAlias type="com.kh.thepain.webSocket.model.vo.Alarm" alias="Alarm"/>
+		<typeAlias type="com.kh.thepain.webSocket.model.vo.AlarmHistory" alias="AlarmHistory"/>
+		<typeAlias type="com.kh.thepain.postList.model.vo.PostWrite" alias="PostWrite"/>
+		<typeAlias type="com.kh.thepain.common.model.vo.Attachment" alias="Attachment"/>
+		<typeAlias type="com.kh.thepain.postList.model.vo.Apply" alias="Apply"/>
+		
+	</typeAliases>
+
+		<mappers>
+			<mapper resource="/mappers/member-mapper.xml"/>
+			<mapper resource="/mappers/alarm-mapper.xml"/>
+			<mapper resource="/mappers/recruitment-mapper.xml"/>
+			<mapper resource="/mappers/jjim-mapper.xml"/>
+			<mapper resource="/mappers/mypage-mapper.xml"/>
+		</mappers>
+
+</configuration>
